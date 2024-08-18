@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background: #100f2b;
+    min-height: 100vh;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-con {
+    background: #8c8bad;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.cal-con header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .cal-nav {
+    display: flex;
+}
+
+header .cal-nav span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aed9e4;
+    font-size: 1.9rem;
+}
+
+.cal-nav span:last-child {
+    margin-right: -10px;
+}
+
+header .cal-nav span:hover {
+    background: #edf1af;
+}
+
+header .cal-current-date {
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+
+.cal-body {
+    padding: 20px;
+}
+
+.cal-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.cal-body .cal-dates {
+    margin-bottom: 20px;
+}
+
+.cal-body li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    color: #150f49;
+}
