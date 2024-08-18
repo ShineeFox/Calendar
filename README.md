@@ -1,0 +1,1 @@
+A simple calendar made using HTML, CSS, JavaScript.
